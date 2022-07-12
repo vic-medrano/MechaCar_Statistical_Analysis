@@ -1,1 +1,6 @@
 # MechaCar_Statistical_Analysis
+## Linear Regression to predict MPG
+![2022-07-12 (1)](https://user-images.githubusercontent.com/102090016/178606186-867f7585-635f-40f3-b827-01403ec9dccb.png)
+- A linear regression was performed to analyze factors that allow us to predict MPG in a car. Using the dataset we were able to analyze vehicle lenght, vehicle weight, spoiler angle, ground clearance, and all wheel drive. The above image is a print-out of the summary statistics collected from the multiple regression. There are two variables that were found to proved a non-random amount of variance in mpg. These two variables were vehicle length and ground clearance. 
+- The p-value of our linear regression analysis is 5.35 x 10^-11, which is much smaller than our assumed significance level of 0.05%. Therefore, we can state that there is sufficient evidence to reject our null hypothesis, which means that the slope of our linear model is not zero.
+- From our linear regression model, the r-squared value is 0.71, which means that roughly 71% of the variablilty of our dependent variable (miles per gallon) is explained using this linear model. In a linear regression model, the higher the correlation is between two variables, the more that one variable can explain/predict the value of the other.
