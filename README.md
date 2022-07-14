@@ -13,3 +13,11 @@
 - When comparing the PSI across all manufacturing lots to the population mean of 1,500 pounds per squar inch we can see that the p value is greater than .05. This leads us to believe that there is not enough evidence to reject the null hypothesis and that the mean PSI across all manufacturing lots is not statistically different than the population mean.
 - When comparing the PSI of each manufacturing lot to the population mean, we can see that Lot 1 and Lot 2 have p values greater than .05. Whereas, the significance level for Lot 3 is below .05. Meaning we can reject the null hypothesis for Lot 1 and Lot 2 but fail to reject the null for lot 3. This shows us that both Lots 1 and 2 are statistically similar to the population mean while Lot 3 is statistically different.
 ## Study Design: MechaCar vs Competition
+### Metrics to be tested
+A statistical test will be conducted to compare the highway fuel efficiency of MechaCar against one if its top competitors. 
+### Null/Alternative Hypothesis
+H0: There is no difference in highway fuel efficiency between MechaCar and its competitor.
+### Statistical Test
+Two-samples t-test will be used to compare the means of two separate samples
+### Data Required
+For this test we will need the population means of two separate groups (MechaCar and competitor). 
